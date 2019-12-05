@@ -1,0 +1,40 @@
+/* table style using Id to reference the change */
+
+#style {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#style td,
+#style th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+
+/* Coloring the odd rows to different color */
+
+#style tr:nth-child(odd) {
+    background-color: #c79393;
+}
+
+
+/* Createed a hover effect */
+
+#style tr:hover {
+    background-color: #ddd;
+}
+
+
+/* Table header styling */
+
+#style th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
